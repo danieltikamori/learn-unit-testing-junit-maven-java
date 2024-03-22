@@ -8,7 +8,7 @@ Learn how to build and test your first Java project with Maven and JUnit.
 
 To get started with Maven, follow the [getting started guide](https://maven.apache.org/guides/getting-started/index.html).
 
-To get started with JUnit, follow the [getting started guide](https://docs.gradle.org/current/userguide/java_testing.html).
+To get started with JUnit, follow the [getting started guide](https://junit.org/junit5/docs/current/user-guide/).
 
 ### Add JUnit to your project
 
