@@ -2,12 +2,14 @@
  * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
  */
 
+package cc.tkmr.junit;
+
 // Import the necessary classes from JUnit for testing
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-// Define the AssumptionsTest class for testing
+// Define the cc.tkmr.junit.AssumptionsTest class for testing
 public class AssumptionsTest {
 
     // Define the test method to validate something if the user is not root
@@ -25,9 +27,7 @@ public class AssumptionsTest {
     }
 }
 
-// In this code, we have a class called AssumptionsTest that contains a test method called validateSomethingIfUserIsRoot(). This method is used to validate something if the user is a root.
-
-// The code begins with some comments that indicate the copyright information and the necessary imports from JUnit.
+// In this code, we have a class called cc.tkmr.junit.AssumptionsTest that contains a test method called validateSomethingIfUserIsRoot(). This method is used to validate something if the user is a root.
 
 // Inside the validateSomethingIfUserIsRoot() method, we have two Assumptions.assumeTrue() and Assumptions.assumeFalse() statements. These statements are used to make assumptions about the test conditions. If the assumption is true, the test will continue to execute. If the assumption is false, the test will be skipped.
 

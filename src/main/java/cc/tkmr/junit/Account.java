@@ -2,6 +2,8 @@
  * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
  */
 
+package cc.tkmr.junit;
+
 public class Account {
     private String AccountNumber;
     private double Balance;

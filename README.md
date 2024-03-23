@@ -31,7 +31,7 @@ Go to Maven tab and copy the code snippet. Open the file pom.xml located at root
 
 ### Build a project
 
-In this example, we will create a Person class and Account class.
+In this example, we will create a cc.tkmr.junit.Person class and cc.tkmr.junit.Account class.
 
 Create the classes with variables, constructors and methods.
 
@@ -79,7 +79,7 @@ Use `import static org.junit.jupiter.api.Assertions.*` to get shorthand syntax f
 
 ### Testing
 
-Right click anywhere in the class Person and select Generate..., then select Test.
+Right click anywhere in the class cc.tkmr.junit.Person and select Generate..., then select Test.
 Select the methods you want to test. It will generate a test class inside the test directory.
 
 You may also create your own test inside this new class as in this example code.

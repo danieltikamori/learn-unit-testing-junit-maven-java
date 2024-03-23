@@ -1,6 +1,8 @@
-    /*
-     * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
-     */
+/*
+ * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
+ */
+
+package cc.tkmr.junit;
 
     import org.junit.jupiter.api.Assertions;
     import org.junit.jupiter.api.Test;

@@ -1,7 +1,13 @@
 /*
+ * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
+ */
+
+package cc.tkmr.junit;
+import java.util.logging.Logger;
+
+/*
  * This class manages the database connection and data operations.
  */
-import java.util.logging.Logger;
 
 // Used to test and learn about @BeforeAll, @AfterAll, @BeforeEach, @AfterEach
 // AfterBeforeTest.java

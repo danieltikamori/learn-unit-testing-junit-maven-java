@@ -2,20 +2,22 @@
  * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
  */
 
+package cc.tkmr.junit;
+
 // Import the necessary Assertion classes from JUnit
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-// Define the AccountTest class for testing the Account class
+// Define the cc.tkmr.junit.AccountTest class for testing the cc.tkmr.junit.Account class
 class AccountTest {
 
 //    @org.junit.jupiter.api.Test
 
-    // Test method to validate the balance calculations in the Account class
+    // Test method to validate the balance calculations in the cc.tkmr.junit.Account class
     @Test
     void validateBalance() {
 
-        // Create an instance of the Account class with an initial balance of 1000.00
+        // Create an instance of the cc.tkmr.junit.Account class with an initial balance of 1000.00
         Account account = new Account("123456789", 1000.00);
         // Assert that the account instance is not null
         Assertions.assertNotNull(account);

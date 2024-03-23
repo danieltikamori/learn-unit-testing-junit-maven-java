@@ -2,16 +2,18 @@
  * Copyright (c) 2024 Daniel I. Tikamori. All rights reserved.
  */
 
-/*
- * This is a test class for testing the functionality of the BeforeAll, AfterAll, BeforeEach, and AfterEach Before Annotation.
- */
+package cc.tkmr.junit;
 
 import org.junit.jupiter.api.*;
 import java.time.LocalDateTime;
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
+ * This is a test class for testing the functionality of the BeforeAll, AfterAll, BeforeEach, and AfterEach Before Annotation.
+ */
+
 /**
- * This class contains test methods for the AfterBeforeTest class.
+ * This class contains test methods for the cc.tkmr.junit.AfterBeforeTest class.
  */
 public class AfterBeforeTest {
 
