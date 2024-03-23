@@ -10,9 +10,9 @@ import static org.junit.jupiter.api.Assertions.*;
 // Define the AssumptionsTest class for testing
 public class AssumptionsTest {
 
-    // Define the test method to validate something if the user is root
+    // Define the test method to validate something if the user is not root
     @Test
-    void validateSomethingIfUserIsRoot() {
+    void validateSomethingIfUserIsNotRoot() {
 
         // Check if the user is not root and run if true, otherwise stop and display "User is root"
         Assumptions.assumeFalse("root".equals(System.getenv("USER")), "User is root");
