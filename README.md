@@ -62,6 +62,20 @@ Use `import static org.junit.jupiter.api.Assertions.*` to get shorthand syntax f
 - @ExtendWith - Run a test with an extension
 - @TempDir - Create a temporary directory
 - @TempValue - Create a temporary value
+- @TempInstance - Create a temporary instance
+- @EnabledIf - Run a test only if a condition is true. @EnabledIf("environment.USER == 'tkmr'")
+- @EnabledIfEnvironmentVariable - Run a test only if an environment variable is set. (named = "USER", matches = ".*[tT]kmr.*")
+- @EnabledIfSystemProperty - Run a test only if a system property is set. (name = "user.name", matches = "tkmr")
+- @DisabledIf - Run a test only if a condition is false
+- @DisabledIfEnvironmentVariable - Run a test only if an environment variable is not set. (named = "USER", matches = "root")
+- @DisabledIfSystemProperty - Run a test only if a system property is not set. (name = "user.name", matches = "tkmr")
+- @EnabledOnOS - Run a test only on the specified operating systems. (OS.LINUX) or array of OS ({OS.LINUX, OS.MAC})
+- @DisabledOnOs - Run a test only on the specified operating systems (OS.WINDOWS) or array of OS ({OS.WINDOWS, OS.MAC})
+- @EnabledOnJre - Run a test only on the specified Java Runtime Environment. (JAVA_17)
+- @EnabledForJreRange - Run a test only on the specified Java Runtime Environment. (min = JAVA_11, max = JAVA_17)
+- @DisabledOnJre - Run a test only on the specified Java Runtime Environment
+- @EnabledOnJdk - Run a test only on the specified Java Development Kit
+- @DisabledOnJdk - Run a test only on the specified Java Development Kit
 
 ### Testing
 

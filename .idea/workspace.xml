@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add BeforeAll, AfterAll, BeforeEach, AfterEach">
+    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="docs: update README.md">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssumptionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,8 @@
     "JUnit.AssertionsTest.executor": "Run",
     "JUnit.AssertionsTest.validateIfObjectIsNull.executor": "Run",
     "JUnit.AssertionsTest.validateNumbersOfDifferentTypes.executor": "Run",
+    "JUnit.AssumptionsTest.executor": "Run",
+    "JUnit.AssumptionsTest.validateSomethingIfUserIsRoot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -83,7 +85,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertionsTest">
+  <component name="RunManager" selected="JUnit.AssumptionsTest.validateSomethingIfUserIsRoot">
     <configuration name="AssertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn-unit-testing-junit-maven-java" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,8 +115,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssumptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-unit-testing-junit-maven-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssumptionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssumptionsTest.validateSomethingIfUserIsRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-unit-testing-junit-maven-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssumptionsTest" />
+      <option name="METHOD_NAME" value="validateSomethingIfUserIsRoot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssumptionsTest.validateSomethingIfUserIsRoot" />
+        <item itemvalue="JUnit.AssumptionsTest" />
         <item itemvalue="JUnit.AssertionsTest" />
         <item itemvalue="JUnit.AssertionsTest.validateNumbersOfDifferentTypes" />
         <item itemvalue="JUnit.AssertionsTest.validateIfObjectIsNull" />
@@ -140,7 +163,8 @@
       <workItem from="1711110569002" duration="87000" />
       <workItem from="1711110709952" duration="3220000" />
       <workItem from="1711147456460" duration="2543000" />
-      <workItem from="1711176731367" duration="6387000" />
+      <workItem from="1711176731367" duration="6748000" />
+      <workItem from="1711184728634" duration="2920000" />
     </task>
     <task id="LOCAL-00001" summary="Update project">
       <option name="closed" value="true" />
@@ -190,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711182963693</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1711184657909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711184657909</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1711185930003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711185930003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +253,7 @@
     <MESSAGE value="Add relevant comment in a method" />
     <MESSAGE value="Add AssertionsTest" />
     <MESSAGE value="Add BeforeAll, AfterAll, BeforeEach, AfterEach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BeforeAll, AfterAll, BeforeEach, AfterEach" />
+    <MESSAGE value="docs: update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update README.md" />
   </component>
 </project>
