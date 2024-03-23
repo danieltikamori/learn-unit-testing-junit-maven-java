@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add AssertionsTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DatabaseConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AfterBeforeTest.java" afterDir="false" />
+    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add BeforeAll, AfterAll, BeforeEach, AfterEach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1711110569002" duration="87000" />
       <workItem from="1711110709952" duration="3220000" />
       <workItem from="1711147456460" duration="2543000" />
-      <workItem from="1711176731367" duration="4820000" />
+      <workItem from="1711176731367" duration="6387000" />
     </task>
     <task id="LOCAL-00001" summary="Update project">
       <option name="closed" value="true" />
@@ -183,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711178846972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add BeforeAll, AfterAll, BeforeEach, AfterEach">
+      <option name="closed" value="true" />
+      <created>1711182963693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711182963693</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,7 @@
     <MESSAGE value="Fix: README.md link" />
     <MESSAGE value="Add relevant comment in a method" />
     <MESSAGE value="Add AssertionsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AssertionsTest" />
+    <MESSAGE value="Add BeforeAll, AfterAll, BeforeEach, AfterEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BeforeAll, AfterAll, BeforeEach, AfterEach" />
   </component>
 </project>

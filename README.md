@@ -29,13 +29,39 @@ Go to Maven tab and copy the code snippet. Open the file pom.xml located at root
     </dependencies>
 ```
 
-
-
 ### Build a project
 
 In this example, we will create a Person class and Account class.
 
 Create the classes with variables, constructors and methods.
+
+
+### "Shorthand" syntax
+
+Use `import static org.junit.jupiter.api.Assertions.*` to get shorthand syntax for JUnit assertions. This enables you to write more readable tests and avoid `Assertions.` use in each test.
+
+
+## Annotations used in JUnit testing classes
+
+- @BeforeEach - Run before each test
+- @AfterEach - Run after each test
+- @Test - Run a single test
+- @BeforeAll - Run before all tests
+- @AfterAll - Run after all tests
+- @DisplayName - Customize the name of the test
+- @Disabled - Disable the test
+- @Tag - Run a test only if you have the specified tag
+- @Timeout - Set a timeout
+- @RepeatedTest - Run a test multiple times
+- @ParameterizedTest - Run a test with multiple parameters
+- @ValueSource - Run a test with multiple parameters from a list of values
+- @EnumSource - Run a test with multiple parameters from an enum
+- @CsvSource - is an ArgumentsSource which reads comma-separated values (CSV) from one or more CSV records supplied via the value() attribute or textBlock() attribute
+- @CsvFileSource -  is an ArgumentsSource which is used to load comma-separated value (CSV) files from one or more classpath resources() or files()
+- @Nested - Run a test inside another test
+- @ExtendWith - Run a test with an extension
+- @TempDir - Create a temporary directory
+- @TempValue - Create a temporary value
 
 ### Testing
 
