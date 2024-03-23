@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add relevant comment in a method">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssertionsTest.java" afterDir="false" />
+    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add AssertionsTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DatabaseConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AfterBeforeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,7 @@
       <workItem from="1711110569002" duration="87000" />
       <workItem from="1711110709952" duration="3220000" />
       <workItem from="1711147456460" duration="2543000" />
-      <workItem from="1711176731367" duration="2034000" />
+      <workItem from="1711176731367" duration="4820000" />
     </task>
     <task id="LOCAL-00001" summary="Update project">
       <option name="closed" value="true" />
@@ -174,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711148524780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add AssertionsTest">
+      <option name="closed" value="true" />
+      <created>1711178846972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711178846972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +204,7 @@
     <MESSAGE value="Update project" />
     <MESSAGE value="Fix: README.md link" />
     <MESSAGE value="Add relevant comment in a method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add relevant comment in a method" />
+    <MESSAGE value="Add AssertionsTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AssertionsTest" />
   </component>
 </project>
