@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add ConditionalsTest&#10;&#10;Conditionals are more elaborated than Assumptions.">
+    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add packages to organize the classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cc/tkmr/junit/TransferBetweenAccounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cc/tkmr/junit/ExceptionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +60,8 @@
     "JUnit.AssertionsTest.validateNumbersOfDifferentTypes.executor": "Run",
     "JUnit.AssumptionsTest.executor": "Run",
     "JUnit.AssumptionsTest.validateSomethingIfUserIsRoot.executor": "Run",
+    "JUnit.ExceptionsTest.executor": "Run",
+    "JUnit.ExceptionsTest.validateExceptionScenarioAtMoneyTransfer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -77,47 +82,33 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cc.tkmr.junit" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssumptionsTest.validateSomethingIfUserIsRoot">
+  <component name="RunManager" selected="JUnit.ExceptionsTest.validateExceptionScenarioAtMoneyTransfer">
     <configuration name="AssertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn-unit-testing-junit-maven-java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertionsTest" />
+      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
+      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.AssertionsTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionsTest.validateIfObjectIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-unit-testing-junit-maven-java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertionsTest" />
-      <option name="METHOD_NAME" value="validateIfObjectIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionsTest.validateNumbersOfDifferentTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-unit-testing-junit-maven-java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertionsTest" />
-      <option name="METHOD_NAME" value="validateNumbersOfDifferentTypes" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AssumptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn-unit-testing-junit-maven-java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssumptionsTest" />
+      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
+      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.AssumptionsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,9 +116,40 @@
     </configuration>
     <configuration name="AssumptionsTest.validateSomethingIfUserIsRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn-unit-testing-junit-maven-java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssumptionsTest" />
+      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
+      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.AssumptionsTest" />
       <option name="METHOD_NAME" value="validateSomethingIfUserIsRoot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-unit-testing-junit-maven-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cc.tkmr.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
+      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.ExceptionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsTest.validateExceptionScenarioAtMoneyTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-unit-testing-junit-maven-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cc.tkmr.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
+      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.ExceptionsTest" />
+      <option name="METHOD_NAME" value="validateExceptionScenarioAtMoneyTransfer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExceptionsTest.validateExceptionScenarioAtMoneyTransfer" />
+        <item itemvalue="JUnit.ExceptionsTest" />
         <item itemvalue="JUnit.AssumptionsTest.validateSomethingIfUserIsRoot" />
         <item itemvalue="JUnit.AssumptionsTest" />
         <item itemvalue="JUnit.AssertionsTest" />
-        <item itemvalue="JUnit.AssertionsTest.validateNumbersOfDifferentTypes" />
-        <item itemvalue="JUnit.AssertionsTest.validateIfObjectIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +186,7 @@
       <workItem from="1711147456460" duration="2543000" />
       <workItem from="1711176731367" duration="6748000" />
       <workItem from="1711184728634" duration="4112000" />
-      <workItem from="1711197075350" duration="331000" />
+      <workItem from="1711197075350" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="Update project">
       <option name="closed" value="true" />
@@ -246,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711188669919</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add packages to organize the classes">
+      <option name="closed" value="true" />
+      <created>1711197855371</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711197855371</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +302,17 @@
     <MESSAGE value="docs: update README.md" />
     <MESSAGE value="Fix: AssumptionsTest" />
     <MESSAGE value="Add ConditionalsTest&#10;&#10;Conditionals are more elaborated than Assumptions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ConditionalsTest&#10;&#10;Conditionals are more elaborated than Assumptions." />
+    <MESSAGE value="Add packages to organize the classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add packages to organize the classes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cc/tkmr/junit/Account.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
