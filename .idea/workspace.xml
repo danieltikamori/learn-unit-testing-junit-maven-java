@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add packages to organize the classes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/tkmr/junit/TransferBetweenAccounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cc/tkmr/junit/ExceptionsTest.java" afterDir="false" />
+    <list default="true" id="2ad3007e-3474-4cef-a671-a922f1ffe5e9" name="Changes" comment="Add ExceptionsTest example&#10;&#10;Here we learn how to test Exceptions.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cc/tkmr/junit/ChooseTestOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,16 +93,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExceptionsTest.validateExceptionScenarioAtMoneyTransfer">
-    <configuration name="AssertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-unit-testing-junit-maven-java" />
-      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
-      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.AssertionsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ChooseTestOrderTest">
     <configuration name="AssumptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn-unit-testing-junit-maven-java" />
       <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
@@ -120,6 +109,21 @@
       <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.AssumptionsTest" />
       <option name="METHOD_NAME" value="validateSomethingIfUserIsRoot" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChooseTestOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-unit-testing-junit-maven-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cc.tkmr.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cc.tkmr.junit" />
+      <option name="MAIN_CLASS_NAME" value="cc.tkmr.junit.ChooseTestOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChooseTestOrderTest" />
         <item itemvalue="JUnit.ExceptionsTest.validateExceptionScenarioAtMoneyTransfer" />
         <item itemvalue="JUnit.ExceptionsTest" />
         <item itemvalue="JUnit.AssumptionsTest.validateSomethingIfUserIsRoot" />
         <item itemvalue="JUnit.AssumptionsTest" />
-        <item itemvalue="JUnit.AssertionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +190,7 @@
       <workItem from="1711147456460" duration="2543000" />
       <workItem from="1711176731367" duration="6748000" />
       <workItem from="1711184728634" duration="4112000" />
-      <workItem from="1711197075350" duration="2168000" />
+      <workItem from="1711197075350" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="Update project">
       <option name="closed" value="true" />
@@ -276,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711197855371</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add ExceptionsTest example&#10;&#10;Here we learn how to test Exceptions.">
+      <option name="closed" value="true" />
+      <created>1711199428300</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711199428300</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +315,8 @@
     <MESSAGE value="Fix: AssumptionsTest" />
     <MESSAGE value="Add ConditionalsTest&#10;&#10;Conditionals are more elaborated than Assumptions." />
     <MESSAGE value="Add packages to organize the classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add packages to organize the classes" />
+    <MESSAGE value="Add ExceptionsTest example&#10;&#10;Here we learn how to test Exceptions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ExceptionsTest example&#10;&#10;Here we learn how to test Exceptions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
