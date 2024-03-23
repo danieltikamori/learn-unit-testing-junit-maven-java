@@ -43,6 +43,7 @@ Right click anywhere in the class Person and select Generate..., then select Tes
 Select the methods you want to test. It will generate a test class inside the test directory.
 
 You may also create your own test inside this new class as in this example code.
+Or create a new test class at the test directory.
 
 After creating your test, run the test class.
 
